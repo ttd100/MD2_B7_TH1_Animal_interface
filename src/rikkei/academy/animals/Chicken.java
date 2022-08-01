@@ -1,7 +1,8 @@
 package rikkei.academy.animals;
 
+import rikkei.academy.edible.IEdible;
 
-public class Chicken extends Animal  {
+public class Chicken extends Animal implements IEdible{
     @Override
     public String makeSound() {
         return "Chicken: cluck-cluck!";
@@ -11,7 +12,4 @@ public class Chicken extends Animal  {
     public String howToEat() {
         return "could be fried";
     }
-    public interface Edible {
-    }
-
 }

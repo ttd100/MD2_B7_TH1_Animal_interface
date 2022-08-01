@@ -1,5 +1,7 @@
 package rikkei.academy.fruit;
 
-import edible.Edible;
+import rikkei.academy.edible.IEdible;
 
-public abstract class Fruit implements IEdible { }
+public abstract class Fruit implements IEdible {
+
+}
